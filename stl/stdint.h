@@ -103,7 +103,7 @@ Macros:
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
@@ -120,6 +120,6 @@ Macros:
 #   define __STDC_CONSTANT_MACROS
 #endif
 
-#include_next <stdint.h>
+#include_next "stdint.h"
 
 #endif  // _LIBCPP_STDINT_H

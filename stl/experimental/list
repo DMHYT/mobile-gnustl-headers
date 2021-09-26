@@ -28,9 +28,9 @@ namespace pmr {
 
  */
 
-#include <stl/experimental/__config>
-#include <stl/list>
-#include <stl/experimental/memory_resource>
+#include "__config"
+#include "../list"
+#include "memory_resource"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

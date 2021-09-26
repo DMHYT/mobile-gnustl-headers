@@ -146,23 +146,23 @@ template<class T>
 
 */
 
-#include <stl/__config>
-#include <stl/__debug>
-#include <stl/__functional_base>
-#include <stl/functional>
-#include <stl/initializer_list>
-#include <stl/new>
-#include <stl/stdexcept>
-#include <stl/type_traits>
-#include <stl/utility>
-#include <stl/version>
+#include "__config"
+#include "__debug"
+#include "__functional_base"
+#include "functional"
+#include "initializer_list"
+#include "new"
+#include "stdexcept"
+#include "type_traits"
+#include "utility"
+#include "version"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 
 namespace std  // purposefully not using versioning namespace

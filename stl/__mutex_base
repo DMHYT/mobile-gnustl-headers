@@ -10,10 +10,10 @@
 #ifndef _LIBCPP___MUTEX_BASE
 #define _LIBCPP___MUTEX_BASE
 
-#include <stl/__config>
-#include <stl/chrono>
-#include <stl/system_error>
-#include <stl/__threading_support>
+#include "__config"
+#include "chrono"
+#include "system_error"
+#include "__threading_support"
 
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
@@ -21,7 +21,7 @@
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 
 _LIBCPP_BEGIN_NAMESPACE_STD

@@ -19,13 +19,13 @@ Macros:
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
-#include_next <stdbool.h>
+#include_next "stdbool.h"
 
 #ifdef __cplusplus
 #undef bool

@@ -423,11 +423,11 @@ template <class Key, class Compare, class Allocator, class Predicate>
 
 */
 
-#include <stl/__config>
-#include <stl/__tree>
-#include <stl/__node_handle>
-#include <stl/functional>
-#include <stl/version>
+#include "__config"
+#include "__tree"
+#include "__node_handle"
+#include "functional"
+#include "version"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

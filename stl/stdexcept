@@ -11,7 +11,7 @@
 #define _LIBCPP_STDEXCEPT
 
 // this include should not be converted
-#include <stdexcept>
+#include "stdexcept"
 
 /*
     stdexcept synopsis
@@ -44,11 +44,11 @@ public:
 
 */
 
-#include <stl/__config>
-#include <stl/exception>
-#include <stl/iosfwd>  // for string forward decl
+#include "__config"
+#include "exception"
+#include "iosfwd"  // for string forward decl
 #ifdef _LIBCPP_NO_EXCEPTIONS
-#include <stl/cstdlib>
+#include "cstdlib"
 #endif
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)

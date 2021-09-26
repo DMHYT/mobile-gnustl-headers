@@ -31,7 +31,7 @@ Types:
 
 */
 
-#include <stl/__config>
+#include "__config"
 #include <stdarg.h>
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)

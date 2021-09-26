@@ -10,7 +10,8 @@
 #ifndef _LIBCPP_EXPERIMENTAL_CONFIG
 #define _LIBCPP_EXPERIMENTAL_CONFIG
 
-#include <stl/__config>
+#include "../algorithm"
+#include "../__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

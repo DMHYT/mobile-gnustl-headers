@@ -54,8 +54,8 @@ class codecvt_utf8_utf16
 
 */
 
-#include <stl/__config>
-#include <stl/__locale>
+#include "__config"
+#include "__locale"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

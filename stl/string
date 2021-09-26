@@ -500,33 +500,33 @@ basic_string<char32_t> operator "" s( const char32_t *str, size_t len ); // C++1
 
 */
 
-#include <stl/__config>
-#include <stl/string_view>
-#include <stl/iosfwd>
-#include <stl/cstring>
-#include <stl/cstdio>  // For EOF.
-#include <stl/cwchar>
-#include <stl/algorithm>
-#include <stl/iterator>
-#include <stl/utility>
-#include <stl/memory>
-#include <stl/stdexcept>
-#include <stl/type_traits>
-#include <stl/initializer_list>
-#include <stl/__functional_base>
-#include <stl/version>
+#include "__config"
+#include "string_view"
+#include "iosfwd"
+#include "cstring"
+#include "cstdio"  // For EOF.
+#include "cwchar"
+#include "algorithm"
+#include "iterator"
+#include "utility"
+#include "memory"
+#include "stdexcept"
+#include "type_traits"
+#include "initializer_list"
+#include "__functional_base"
+#include "version"
 #ifndef _LIBCPP_HAS_NO_UNICODE_CHARS
-#include <stl/cstdint>
+#include "cstdint"
 #endif
 
-#include <stl/__debug>
+#include "__debug"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 
 _LIBCPP_BEGIN_NAMESPACE_STD

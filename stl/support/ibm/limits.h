@@ -36,8 +36,8 @@ static const unsigned int _SNAN_LDBL128[4] = {0x7ff55555, 0x55555555, 0x0, 0x0};
 
 #else
 
-#include <stl/math.h>
-#include <stl/float.h> // limit constants
+#include "../../math.h"
+#include "../../float.h" // limit constants
 
 #define __builtin_huge_val()     HUGE_VAL  //0x7ff0000000000000
 #define __builtin_huge_valf()    HUGE_VALF //0x7f800000

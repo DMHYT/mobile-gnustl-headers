@@ -10,7 +10,7 @@
 #ifndef _LIBCPP_EXECUTION
 #define _LIBCPP_EXECUTION
 
-#include <stl/__config>
+#include "__config"
 
 #if defined(_LIBCPP_HAS_PARALLEL_ALGORITHMS) && _LIBCPP_STD_VER >= 17
 #   include <__pstl_execution>

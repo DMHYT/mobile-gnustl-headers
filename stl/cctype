@@ -34,8 +34,8 @@ int toupper(int c);
 }  // std
 */
 
-#include <stl/__config>
-#include <stl/ctype.h>
+#include "__config"
+#include "ctype.h"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

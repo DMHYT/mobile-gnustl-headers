@@ -95,8 +95,8 @@ void perror(const char* s);
 }  // std
 */
 
-#include <stl/__config>
-#include <stl/stdio.h>
+#include "__config"
+#include "stdio.h"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

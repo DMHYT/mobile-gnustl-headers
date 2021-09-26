@@ -10,12 +10,12 @@
 #ifndef _LIBCPP_FUNCTIONAL_BASE
 #define _LIBCPP_FUNCTIONAL_BASE
 
-#include <stl/__config>
-#include <stl/type_traits>
-#include <stl/typeinfo>
-#include <stl/exception>
-#include <stl/new>
-#include <stl/utility>
+#include "__config"
+#include "type_traits"
+#include "typeinfo"
+#include "exception"
+#include "new"
+#include "utility"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
@@ -303,7 +303,7 @@ struct __invoke_return
 
 #else // defined(_LIBCPP_CXX03_LANG)
 
-#include <stl/__functional_base_03>
+#include "__functional_base_03"
 
 #endif  // !defined(_LIBCPP_CXX03_LANG)
 

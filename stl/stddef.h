@@ -14,7 +14,7 @@
 #pragma GCC system_header
 #endif
 
-#include_next <stddef.h>
+#include_next "stddef.h"
 
 #elif !defined(_LIBCPP_STDDEF_H)
 #define _LIBCPP_STDDEF_H
@@ -36,18 +36,18 @@ Types:
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
-#include_next <stddef.h>
+#include_next "stddef.h"
 
 #ifdef __cplusplus
 
 extern "C++" {
-#include <stl/__nullptr>
+#include "__nullptr"
 using std::nullptr_t;
 }
 

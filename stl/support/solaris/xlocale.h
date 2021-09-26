@@ -13,7 +13,7 @@
 #ifndef __XLOCALE_H_INCLUDED
 #define __XLOCALE_H_INCLUDED
 
-#include <stl/stdlib.h>
+#include "../../stdlib.h"
 
 #ifdef __cplusplus
 extern "C" {

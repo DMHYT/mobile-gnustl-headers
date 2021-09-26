@@ -16,8 +16,8 @@
 extern "C" {
 #endif
 
-#include <stl/stdlib.h>
-#include <xlocale.h>
+#include "../../stdlib.h"
+#include "xlocale.h"
 
 #ifdef __cplusplus
 }
@@ -27,12 +27,12 @@ extern "C" {
 
 #include <android/api-level.h>
 #include <android/ndk-version.h>
-#include <stl/support/xlocale/__posix_l_fallback.h>
+#include "../xlocale/__posix_l_fallback.h"
 // In NDK versions later than 16, locale-aware functions are provided by
 // legacy_stdlib_inlines.h
 #if __NDK_MAJOR__ <= 16
 #if __ANDROID_API__ < 21
-#include <stl/support/xlocale/__strtonum_fallback.h>
+#include "../xlocale/__strtonum_fallback.h"
 #elif __ANDROID_API__ < 26
 
 #if defined(__cplusplus)

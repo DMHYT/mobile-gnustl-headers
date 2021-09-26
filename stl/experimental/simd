@@ -649,11 +649,11 @@ public:
 
 */
 
-#include <stl/experimental/__config>
-#include <stl/algorithm>
-#include <stl/array>
-#include <stl/cstddef>
-#include <stl/functional>
+#include "__config"
+#include "../algorithm"
+#include "../array"
+#include "../cstddef"
+#include "../functional"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

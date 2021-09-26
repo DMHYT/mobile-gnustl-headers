@@ -122,16 +122,16 @@ template <class Mutex>
 
 */
 
-#include <stl/__config>
-#include <stl/version>
+#include "__config"
+#include "version"
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 
 #if _LIBCPP_STD_VER > 11 || defined(_LIBCPP_BUILDING_LIBRARY)
 
-#include <stl/__mutex_base>
+#include "__mutex_base"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

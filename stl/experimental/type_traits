@@ -68,12 +68,12 @@ inline namespace fundamentals_v1 {
 
  */
 
-#include <stl/experimental/__config>
+#include "__config"
 
 #if _LIBCPP_STD_VER > 11
 
-#include <stl/initializer_list>
-#include <stl/type_traits>
+#include "../initializer_list"
+#include "../type_traits"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

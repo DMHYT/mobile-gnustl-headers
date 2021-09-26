@@ -177,22 +177,22 @@ template <class charT> class messages_byname;
 
 */
 
-#include <stl/__config>
-#include <stl/__locale>
-#include <stl/__debug>
-#include <stl/algorithm>
-#include <stl/memory>
-#include <stl/ios>
-#include <stl/streambuf>
-#include <stl/iterator>
-#include <stl/limits>
-#include <stl/version>
+#include "__config"
+#include "__locale"
+#include "__debug"
+#include "algorithm"
+#include "memory"
+#include "ios"
+#include "streambuf"
+#include "iterator"
+#include "limits"
+#include "version"
 #ifndef __APPLE__
-#include <stl/cstdarg>
+#include "cstdarg"
 #endif
-#include <stl/cstdlib>
-#include <stl/ctime>
-#include <stl/cstdio>
+#include "cstdlib"
+#include "ctime"
+#include "cstdio"
 #ifdef _LIBCPP_HAS_CATOPEN
 #include <nl_types.h>
 #endif
@@ -202,9 +202,9 @@ template <class charT> class messages_byname;
 #endif
 
 #ifdef _LIBCPP_LOCALE__L_EXTENSIONS
-#include <stl/__bsd_locale_defaults.h>
+#include "__bsd_locale_defaults.h"
 #else
-#include <stl/__bsd_locale_fallbacks.h>
+#include "__bsd_locale_fallbacks.h"
 #endif
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
@@ -212,7 +212,7 @@ template <class charT> class messages_byname;
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 
 _LIBCPP_BEGIN_NAMESPACE_STD

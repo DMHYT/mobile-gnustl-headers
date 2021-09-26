@@ -339,7 +339,7 @@ class _LIBCPP_EXCEPTION_ABI bad_typeid
 */
 
 // this include should not be converted
-#include <typeinfo>
+#include "typeinfo"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 _LIBCPP_NORETURN inline _LIBCPP_INLINE_VISIBILITY

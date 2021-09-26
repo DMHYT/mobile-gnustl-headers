@@ -30,8 +30,8 @@ inline namespace fundamentals_v1 {
 
  */
 
-#include <stl/experimental/__config>
-#include <stl/utility>
+#include "__config"
+#include "../utility"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

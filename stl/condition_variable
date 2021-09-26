@@ -106,9 +106,9 @@ public:
 
 */
 
-#include <stl/__config>
-#include <stl/__mutex_base>
-#include <stl/memory>
+#include "__config"
+#include "__mutex_base"
+#include "memory"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

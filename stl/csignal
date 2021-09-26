@@ -39,7 +39,7 @@ int raise(int sig);
 
 */
 
-#include <stl/__config>
+#include "__config"
 #include <signal.h>
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)

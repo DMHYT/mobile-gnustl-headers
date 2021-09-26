@@ -45,8 +45,8 @@ int timespec_get( struct timespec *ts, int base); // C++17
 
 */
 
-#include <stl/__config>
-#include <time.h>
+#include "__config"
+#include "time.h"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

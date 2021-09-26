@@ -51,13 +51,13 @@ size_t strlen(const char* s);
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
-#include_next <string.h>
+#include_next "string.h"
 
 // MSVCRT, GNU libc and its derivates may already have the correct prototype in
 // <string.h>. This macro can be defined by users if their C library provides

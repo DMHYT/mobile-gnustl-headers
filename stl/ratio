@@ -77,17 +77,17 @@ typedef ratio<1000000000000000000000000, 1> yotta;  // not supported
 }
 */
 
-#include <stl/__config>
-#include <stl/cstdint>
-#include <stl/climits>
-#include <stl/type_traits>
+#include "__config"
+#include "cstdint"
+#include "climits"
+#include "type_traits"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 
 _LIBCPP_BEGIN_NAMESPACE_STD

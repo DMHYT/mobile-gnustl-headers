@@ -12,10 +12,10 @@
 
 #if defined(__Fuchsia__)
 
-#include <stl/cstdlib>
-#include <stl/cwchar>
-#include <stl/support/xlocale/__posix_l_fallback.h>
-#include <stl/support/xlocale/__strtonum_fallback.h>
+#include "../../cstdlib"
+#include "../../cwchar"
+#include "../xlocale/__posix_l_fallback.h"
+#include "../xlocale/__strtonum_fallback.h"
 
 #endif // defined(__Fuchsia__)
 

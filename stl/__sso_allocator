@@ -10,9 +10,9 @@
 #ifndef _LIBCPP___SSO_ALLOCATOR
 #define _LIBCPP___SSO_ALLOCATOR
 
-#include <stl/__config>
-#include <stl/type_traits>
-#include <stl/new>
+#include "__config"
+#include "type_traits"
+#include "new"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

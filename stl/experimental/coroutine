@@ -45,14 +45,14 @@ template <class P> struct hash<coroutine_handle<P>>;
 
  */
 
-#include <stl/experimental/__config>
-#include <stl/new>
-#include <stl/type_traits>
-#include <stl/functional>
-#include <stl/memory> // for hash<T*>
-#include <stl/cstddef>
-#include <stl/cassert>
-#include <stl/__debug>
+#include "__config"
+#include "../new"
+#include "../type_traits"
+#include "../functional"
+#include "../memory" // for hash<T*>
+#include "../cstddef"
+#include "../cassert"
+#include "../__debug"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

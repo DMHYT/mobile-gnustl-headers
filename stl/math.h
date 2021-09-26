@@ -10,7 +10,7 @@
 #ifndef _LIBCPP_MATH_H
 #define _LIBCPP_MATH_H
 
-#include <math.h>
+#include "math.h"
 
 /*
     math.h synopsis
@@ -293,16 +293,16 @@ long double    truncl(long double x);
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
 #define _LIBCPP_STDLIB_INCLUDE_NEXT
-#include <stl/stdlib.h>
+#include "stdlib.h"
 
-#include_next <math.h>
+#include_next "math.h"
 
 #ifdef __cplusplus
 
@@ -310,8 +310,8 @@ long double    truncl(long double x);
 // back to C++ linkage before including these C++ headers.
 extern "C++" {
 
-#include <stl/type_traits>
-#include <stl/limits>
+#include "type_traits"
+#include "limits"
 
 // signbit
 
@@ -1571,7 +1571,7 @@ trunc(_A1 __lcpp_x) _NOEXCEPT {return ::trunc((double)__lcpp_x);}
 // and receive the definitions of mathematical constants, even if <math.h>
 // has previously been included.
 #if defined(_LIBCPP_MSVCRT) && defined(_USE_MATH_DEFINES)
-#include_next <math.h>
+#include_next "math.h"
 #endif
 
 #endif  // _LIBCPP_MATH_H

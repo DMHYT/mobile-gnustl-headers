@@ -33,12 +33,12 @@ Functions:
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
-#include_next <locale.h>
+#include_next "locale.h"
 
 #endif  // _LIBCPP_LOCALE_H

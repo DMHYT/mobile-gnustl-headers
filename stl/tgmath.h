@@ -17,7 +17,7 @@
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
@@ -25,11 +25,11 @@
 
 #ifdef __cplusplus
 
-#include <stl/ctgmath>
+#include "ctgmath"
 
 #else  // __cplusplus
 
-#include_next <tgmath.h>
+#include_next "tgmath.h"
 
 #endif  // __cplusplus
 

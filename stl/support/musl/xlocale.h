@@ -17,8 +17,8 @@
 #ifndef _LIBCPP_SUPPORT_MUSL_XLOCALE_H
 #define _LIBCPP_SUPPORT_MUSL_XLOCALE_H
 
-#include <stl/cstdlib>
-#include <stl/cwchar>
+#include "../../cstdlib"
+#include "../../cwchar"
 
 #ifdef __cplusplus
 extern "C" {

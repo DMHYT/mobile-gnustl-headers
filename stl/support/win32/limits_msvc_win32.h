@@ -17,9 +17,9 @@
 #error "This header should only be included when using Microsofts C1XX frontend"
 #endif
 
-#include <stl/limits.h> // CHAR_BIT
-#include <stl/float.h> // limit constants
-#include <stl/math.h> // HUGE_VAL
+#include "../../limits.h" // CHAR_BIT
+#include "../../float.h" // limit constants
+#include "../../math.h" // HUGE_VAL
 #include <ymath.h> // internal MSVC header providing the needed functionality
 
 #define __CHAR_BIT__       CHAR_BIT

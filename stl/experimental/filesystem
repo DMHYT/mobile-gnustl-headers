@@ -229,15 +229,15 @@
 
 */
 
-#include <stl/experimental/__config>
-#include <stl/filesystem>
+#include "__config"
+#include "../filesystem"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "../__undef_macros"
 
 #ifndef _LIBCPP_CXX03_LANG
 

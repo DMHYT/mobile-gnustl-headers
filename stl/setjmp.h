@@ -25,13 +25,13 @@ void longjmp(jmp_buf env, int val);
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
-#include_next <setjmp.h>
+#include_next "setjmp.h"
 
 #ifdef __cplusplus
 

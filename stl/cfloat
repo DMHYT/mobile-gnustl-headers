@@ -69,8 +69,8 @@ Macros:
     LDBL_TRUE_MIN       // C11
 */
 
-#include <stl/__config>
-#include <stl/float.h>
+#include "__config"
+#include "float.h"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

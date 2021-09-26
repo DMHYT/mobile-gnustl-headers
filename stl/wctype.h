@@ -44,13 +44,13 @@ wctrans_t wctrans(const char* property);
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
-#include_next <wctype.h>
+#include_next "wctype.h"
 
 #ifdef __cplusplus
 

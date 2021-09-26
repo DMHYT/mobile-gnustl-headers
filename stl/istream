@@ -158,16 +158,16 @@ template <class charT, class traits, class T>
 
 */
 
-#include <stl/__config>
-#include <stl/version>
-#include <stl/ostream>
+#include "__config"
+#include "version"
+#include "ostream"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 
 _LIBCPP_BEGIN_NAMESPACE_STD

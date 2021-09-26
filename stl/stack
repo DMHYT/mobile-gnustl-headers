@@ -87,8 +87,8 @@ template <class T, class Container>
 
 */
 
-#include <stl/__config>
-#include <stl/deque>
+#include "__config"
+#include "deque"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

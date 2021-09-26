@@ -106,16 +106,16 @@
 
 */
 
-#include <stl/experimental/__config>
+#include "__config"
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
 #if _LIBCPP_STD_VER > 11
 
-#include <stl/type_traits>
-#include <stl/utility>
-#include <stl/functional>
+#include "../type_traits"
+#include "../utility"
+#include "../functional"
 
 _LIBCPP_BEGIN_NAMESPACE_LFTS_V2
 

@@ -178,7 +178,7 @@ _LIBCPP_INLINE_VAR constexpr destroying_delete_t destroying_delete{};
 }  // std
 */
 
-#include <stl/new>
+#include "new"
 
 /*
 #if defined(_LIBCPP_CXX03_LANG)

@@ -17,7 +17,7 @@
 #undef _LIBCPP_STDLIB_INCLUDE_NEXT
 #endif
 
-#include_next <stdlib.h>
+#include_next "stdlib.h"
 
 #elif !defined(_LIBCPP_STDLIB_H)
 #define _LIBCPP_STDLIB_H
@@ -88,16 +88,16 @@ void *aligned_alloc(size_t alignment, size_t size);                       // C11
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
-#include_next <stdlib.h>
+#include_next "stdlib.h"
 
 #ifdef __cplusplus
-#include <stl/math.h>
+#include "math.h"
 #endif  // __cplusplus
 
 #endif  // _LIBCPP_STDLIB_H

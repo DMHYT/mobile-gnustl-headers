@@ -10,9 +10,9 @@
 #ifndef _LIBCPP___TUPLE
 #define _LIBCPP___TUPLE
 
-#include <stl/__config>
-#include <stl/cstddef>
-#include <stl/type_traits>
+#include "__config"
+#include "cstddef"
+#include "type_traits"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

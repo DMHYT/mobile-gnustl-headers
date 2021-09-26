@@ -39,9 +39,9 @@ namespace pmr {
 
  */
 
-#include <stl/experimental/__config>
-#include <stl/unordered_map>
-#include <stl/experimental/memory_resource>
+#include "__config"
+#include "../unordered_map"
+#include "memory_resource"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

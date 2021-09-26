@@ -13,9 +13,9 @@
 #ifndef _LIBCPP_BSD_LOCALE_FALLBACKS_DEFAULTS_H
 #define _LIBCPP_BSD_LOCALE_FALLBACKS_DEFAULTS_H
 
-#include <stl/stdlib.h>
+#include "stdlib.h"
 #include <stdarg.h>
-#include <stl/memory>
+#include "memory"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

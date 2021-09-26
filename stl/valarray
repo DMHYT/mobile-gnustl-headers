@@ -338,20 +338,20 @@ template <class T> unspecified2 end(const valarray<T>& v);
 
 */
 
-#include <stl/__config>
-#include <stl/cstddef>
-#include <stl/cmath>
-#include <stl/initializer_list>
-#include <stl/algorithm>
-#include <stl/functional>
-#include <stl/new>
+#include "__config"
+#include "cstddef"
+#include "cmath"
+#include "initializer_list"
+#include "algorithm"
+#include "functional"
+#include "new"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 
 _LIBCPP_BEGIN_NAMESPACE_STD

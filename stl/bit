@@ -53,11 +53,11 @@ namespace std {
 
 */
 
-#include <stl/__config>
-#include <stl/limits>
-#include <stl/type_traits>
-#include <stl/version>
-#include <stl/__debug>
+#include "__config"
+#include "limits"
+#include "type_traits"
+#include "version"
+#include "__debug"
 
 #if defined(__IBMCPP__)
 #include "support/ibm/support.h"
@@ -71,7 +71,7 @@ namespace std {
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

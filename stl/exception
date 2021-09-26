@@ -330,7 +330,7 @@ rethrow_if_nested(const _Ep&,
 */
 
 // this include should not be converted
-#include <exception>
+#include "exception"
 
 #endif  // _LIBCPP_EXCEPTION
 

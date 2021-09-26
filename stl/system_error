@@ -142,11 +142,11 @@ template <> struct hash<std::error_condition>;
 
 */
 
-#include <stl/__errc>
-#include <stl/type_traits>
-#include <stl/stdexcept>
-#include <stl/__functional_base>
-#include <stl/string>
+#include "__errc"
+#include "type_traits"
+#include "stdexcept"
+#include "__functional_base"
+#include "string"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

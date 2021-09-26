@@ -17,7 +17,7 @@
 
 */
 
-#include <stl/__config>
+#include "__config"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
@@ -25,11 +25,11 @@
 
 #ifdef __cplusplus
 
-#include <stl/ccomplex>
+#include "ccomplex"
 
 #else  // __cplusplus
 
-#include_next <complex.h>
+#include_next "complex.h"
 
 #endif  // __cplusplus
 

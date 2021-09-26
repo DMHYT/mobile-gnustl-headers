@@ -140,8 +140,8 @@ Types:
 }  // std
 */
 
-#include <stl/__config>
-#include <stl/stdint.h>
+#include "__config"
+#include "stdint.h"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

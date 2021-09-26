@@ -416,18 +416,18 @@ template <class E> constexpr const E* data(initializer_list<E> il) noexcept;    
 
 */
 
-#include <stl/__config>
-#include <stl/iosfwd> // for forward declarations of vector and string.
-#include <stl/__functional_base>
-#include <stl/type_traits>
-#include <stl/cstddef>
-#include <stl/initializer_list>
-#include <stl/version>
+#include "__config"
+#include "iosfwd" // for forward declarations of vector and string.
+#include "__functional_base"
+#include "type_traits"
+#include "cstddef"
+#include "initializer_list"
+#include "version"
 #ifdef __APPLE__
 #include <Availability.h>
 #endif
 
-#include <stl/__debug>
+#include "__debug"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

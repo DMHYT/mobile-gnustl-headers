@@ -405,15 +405,15 @@ template <class Key, class T, class Hash, class Pred, class Alloc>
 
 */
 
-#include <stl/__config>
-#include <stl/__hash_table>
-#include <stl/__node_handle>
-#include <stl/functional>
-#include <stl/stdexcept>
-#include <stl/tuple>
-#include <stl/version>
+#include "__config"
+#include "__hash_table"
+#include "__node_handle"
+#include "functional"
+#include "stdexcept"
+#include "tuple"
+#include "version"
 
-#include <stl/__debug>
+#include "__debug"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

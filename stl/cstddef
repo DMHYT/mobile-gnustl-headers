@@ -33,8 +33,8 @@ Types:
 
 */
 
-#include <stl/__config>
-#include <stl/version>
+#include "__config"
+#include "version"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
@@ -42,7 +42,7 @@ Types:
 
 // Don't include our own <stddef.h>; we don't want to declare ::nullptr_t.
 #include_next <stddef.h>
-#include <stl/__nullptr>
+#include "__nullptr"
 
 _LIBCPP_BEGIN_NAMESPACE_STD
 

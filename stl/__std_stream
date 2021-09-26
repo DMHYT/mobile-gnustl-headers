@@ -10,18 +10,18 @@
 #ifndef _LIBCPP___STD_STREAM
 #define _LIBCPP___STD_STREAM
 
-#include <stl/__config>
-#include <stl/ostream>
-#include <stl/istream>
-#include <stl/__locale>
-#include <stl/cstdio>
+#include "__config"
+#include "ostream"
+#include "istream"
+#include "__locale"
+#include "cstdio"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
 #endif
 
 _LIBCPP_PUSH_MACROS
-#include <stl/__undef_macros>
+#include "__undef_macros"
 
 
 _LIBCPP_BEGIN_NAMESPACE_STD

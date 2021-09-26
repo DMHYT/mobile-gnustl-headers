@@ -201,12 +201,12 @@ template <class Key, class T, class Hash, class Pred, class Alloc>
 
 */
 
-#include <stl/__config>
-#include <stl/__hash_table>
-#include <stl/functional>
-#include <stl/stdexcept>
-#include <stl/type_traits>
-#include <stl/ext/__hash>
+#include "../__config"
+#include "../__hash_table"
+#include "../functional"
+#include "../stdexcept"
+#include "../type_traits"
+#include "__hash"
 
 #if __DEPRECATED
 #if defined(_LIBCPP_WARNING)

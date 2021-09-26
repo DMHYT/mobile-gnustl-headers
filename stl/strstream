@@ -126,9 +126,9 @@ private:
 
 */
 
-#include <stl/__config>
-#include <stl/ostream>
-#include <stl/istream>
+#include "__config"
+#include "ostream"
+#include "istream"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header

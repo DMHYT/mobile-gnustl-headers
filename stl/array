@@ -103,16 +103,16 @@ template <size_t I, class T, size_t N> const T&& get(const array<T, N>&&) noexce
 
 */
 
-#include <stl/__config>
-#include <stl/__tuple>
-#include <stl/type_traits>
-#include <stl/utility>
-#include <stl/iterator>
-#include <stl/algorithm>
-#include <stl/stdexcept>
-#include <stl/cstdlib> // for _LIBCPP_UNREACHABLE
-#include <stl/version>
-#include <stl/__debug>
+#include "__config"
+#include "__tuple"
+#include "type_traits"
+#include "utility"
+#include "iterator"
+#include "algorithm"
+#include "stdexcept"
+#include "cstdlib" // for _LIBCPP_UNREACHABLE
+#include "version"
+#include "__debug"
 
 #if !defined(_LIBCPP_HAS_NO_PRAGMA_SYSTEM_HEADER)
 #pragma GCC system_header
